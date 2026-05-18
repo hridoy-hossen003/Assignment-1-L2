@@ -37,5 +37,8 @@ account.deposit(1000);
 account.balance = 9999;             // Error: private field
 console.log(account.getBalance());  // 1000 
 ````
-### How it can halps in large scale project of application ?
+### How it can halps in large a scale project of application ?
 If there is an change in internal implemantation code will not be brack in outside. Data cannot be modify directly it can helps to prevent unspected state. it keeps the code maintainable and predictable.
+
+## What is Inheritance ?
+
