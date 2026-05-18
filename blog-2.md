@@ -34,3 +34,18 @@ When you handle unpredictable data.
 - JSON data
 - Third-party library data
 It is most recomanded to use `unkwon` while using unpredicted data will comes. to avoid the unspected things hapends and redus the risk of crashing the whole program.
+
+## What is type narrowing in ts.?
+Type Narrowing is a concept where TypeScript narrow the broad type (`string | number | boolean`) of data into a spacific type of data. TypeScript analize the flow of program means when the code run into the `if` `else` `switch` blog ts automatically knows what is the type of this blog.
+There are few methods of technics to narrowing the type is
+- typeof
+- instanceof
+- in method
+- Equality narrowing
+- Truthiness narrowing
+
+## Final conclusion.
+`any` is the way to escaping the safety system of typescript. when you use `any` ts do not check its type in compile time so that the app could be crushed in run time. so its is best approch that not to use `any` in the code.
+`unkown` is safer option then `any` bz developer is fourced to check its type before use. so that error or unwanted thing can be prevent in compile time and the risk of crashing the app is prevented. so developer preffer to use `unkown` rather then `any`.
+type narrowing is that macanism whis is use to narrow a broad type of data into a spacific one. typeof, instanceof, in operator, equality check, truthiness check, custom type guard, and discriminated union is the main technic to narrow the type.
+
