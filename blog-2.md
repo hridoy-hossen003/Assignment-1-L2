@@ -45,7 +45,7 @@ There are few methods of technics to narrowing the type is
 - Truthiness narrowing
 
 ## Final conclusion.
-`any` is the way to escaping the safety system of typescript. when you use `any` ts do not check its type in compile time so that the app could be crushed in run time. so its is best approch that not to use `any` in the code.
-`unkown` is safer option then `any` bz developer is fourced to check its type before use. so that error or unwanted thing can be prevent in compile time and the risk of crashing the app is prevented. so developer preffer to use `unkown` rather then `any`.
-type narrowing is that macanism whis is use to narrow a broad type of data into a spacific one. typeof, instanceof, in operator, equality check, truthiness check, custom type guard, and discriminated union is the main technic to narrow the type.
+##### `any` is the way to escaping the safety system of typescript. when you use `any` ts do not check its type in compile time so that the app could be crushed in run time. so its is best approch that not to use `any` in the code.
+##### `unkown` is safer option then `any` bz developer is fourced to check its type before use. so that error or unwanted thing can be prevent in compile time and the risk of crashing the app is prevented. so developer preffer to use `unkown` rather then `any`.
+##### type narrowing is that macanism whis is use to narrow a broad type of data into a spacific one. typeof, instanceof, in operator, equality check, truthiness check, custom type guard, and discriminated union is the main technic to narrow the type.
 
