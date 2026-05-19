@@ -92,3 +92,8 @@ Polymorphism means meny forms. That means one single method or interface but it 
 - A new class can be added without changing previes code.
 - It makes codebase more flexible and extensible.
 
+# What is Abstraction ?
+Abstraction means hide the complex implemantation and show just necessary part of the code. There are 2 type of abstraction are 
+- Abstract Class
+- Interface
+  
