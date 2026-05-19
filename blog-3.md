@@ -81,3 +81,14 @@ dog.describe();
 - it help to prevent code duplicancy
 - it make code more readable and developer don't need to write same code multiple time and some common logic and propary can be sheard trought the other sub-classes. 
 - new feature can be added by creating a new sub-class. no need to retouch the code you wrote before.
+
+## What is Polymorphism ?
+Polymorphism means meny forms. That means one single method or interface but it could use in different ways in different classes. it is most important piller of OOP. There 3 types of polymorphism are 
+- Method Overriding
+- Parametric Polymorphism
+- Method Overloading
+## How can it helps in a large scale project.
+- Developer can handle different type of interfaces with a single one.
+- A new class can be added without changing previes code.
+- It makes codebase more flexible and extensible.
+
